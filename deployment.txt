@@ -1,0 +1,38 @@
+Mongo Atlas-> it is used for Database on cloud.
+              yeh ek cloud Database service hain.
+     it is simple to use various industries,
+     it's performance is very good
+
+
+Aryan-Panchal
+
+Y9U8xBZST6Wg3Mm4
+
+DataBase link->
+mongodb+srv://Aryan-Panchal:Y9U8xBZST6Wg3Mm4@myatlasclusteredu.j5quadg.mongodb.net/?retryWrites=true&w=majority&appName=myAtlasClusterEDU
+
+
+Mongo session-store-> it is used for developement purposes not for production environment.
+        iske ander hum session related information store karte hain.             
+        session related information by default 14 days taak save rahti hain. 
+
+
+deployement kain liye hum use kaar sakte hain->
+        
+        1.render
+        2.netlify
+        3.cyclic etc.
+
+hume apne project ko github pain push karna hoga phir project ko github sain render pain deploy karna hoga.
+
+
+hume apne project git project main convert karne kain liye hume
+
+1. git init command use karni hoti hain
+
+  git ignore file kaa use hum un files ko ignore karne kain liye karte hain joh files hume
+  project ko github pain push karte waqt nahi chahiye hoti hain.
+
+2.  deployement ko successful karne kain liye hume 
+    environment variables ko add karenge
+    Atlas ko configure karenge 

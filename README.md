@@ -1,2 +1,2 @@
-# wanderlust
-Project
+# Major-Project
+WanderLust

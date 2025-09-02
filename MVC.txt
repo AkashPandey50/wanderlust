@@ -1,0 +1,10 @@
+MVC-> Model,View,Controller
+      project kain ander likhne kaa ek tarika hota hain.
+
+Models-> iska kaam hota hain database kain models ko store karana.
+Views-> iska kaam hota hain hamare frontend ko store karana.
+Controllers-> iske ander hum apne backend ko store karate hain.
+
+MVC design pattern sain hum apne code ko aur compact bana sakte hain.
+
+router.route-> isko use karne sain hum common routes ko sirf ek baar hi likhne ki jaroorat padegi.

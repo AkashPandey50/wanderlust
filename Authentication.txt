@@ -1,0 +1,51 @@
+Authentication-> Authentication is a process of verifying someone.
+                signup/login wala part.
+Authorization-> Authorization is the process of verifying what data a user needs to access.
+                hume user ko kinn kinn chijo kaa access dena hain.     
+password will be converted in the form of hashed string
+
+Hashing function are one-way function.
+
+for a different input,there is a different ouput of a same length.
+
+small change in input brings a large changes in outputs.
+
+Hashing functions-> SHA-256
+                    MD5
+                    CRC
+                    Bcrypt
+
+reverse lookup table isme hashform ki mapping password sain karte hain.
+
+data hack hone sain bachane kain liye hum salting usee karte hain.
+
+passport is a type of library that is used for authentication.
+
+passport-local strategy which is used for authenticating with a username and password
+
+npm i passport
+
+npm i passport-local
+
+this library is used for mongodb database.
+npm i passport-local-mongoose
+
+passport-local-mongoose -> humare liye khud sain username or password define kaar dega 
+
+passport session kain login kain credentials kaa use karta hain taaki woh baar baar user sain login naa karaye ek session main.
+
+Serialization-> user sain related information ko session main store karna.
+
+DeSerialization-> user sain related information ko session sain remove karna user kain logout hone kain baad
+
+register method automatically check kaar lega ki user unique hain kya nahi.
+
+pbkdf2 hashing algorithm is used in passport 
+
+passport.authenticate humara ek middleware hain joh humare post route main authentication kain liye use hota hain
+
+koi user login hain yah nahi passport logged in hume yeh authority provide karta hain.
+
+passport.loginIn-> iska istemal hum user kain signUp hone kain baad automatic loginIn ho jaye.
+
+agar lisitng.owner._id aur currUser._id agar smae hain aur baki sare case main hum yeh reject kaar denge.

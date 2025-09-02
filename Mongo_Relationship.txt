@@ -1,0 +1,14 @@
+one to many relationship have three categories
+
+1. 2,3,400,500 users ->it is one to few relationship
+   ex-> Zomato,Swiggy,Uber,Ola-> hum zomato main apana address store karte hain 
+                 humare address ki locations sirf max 5-10 ho sakti hain
+                 locations kaa ex-> home,hostel,office
+
+                 User(parent)------------>Address(child) 
+2. n* 10^3 users
+   
+3. Billions of users 
+
+
+ 

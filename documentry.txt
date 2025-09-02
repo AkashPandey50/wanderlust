@@ -1,0 +1,60 @@
+EJS Mate-> it is use to create the predefined templates or layouts
+
+Joi-> it is a type of tool this is used to validate the schema in an easier format it is an npm package
+      joi ki help sain hum schema define karte hain isse server side validation kain liye use karte hain
+     
+client side validation kain liye hum form kaa istemaal karte hain
+
+server side validation kain liye hum joi kaa istemaal karte hain
+
+ex-> hume reviews id hi nahi balki uske sath hume uska data bhi chahiye toh
+    hume .populate method kaa use kartne hoga.
+
+
+../ -> isse hum parent directory main chale jate hain 
+
+
+Routes sain hume common part nikalna hota hain.
+
+ex->  /listings/:id/new -> /:id/new for listings
+      /listings/:id/reviews/:reviewId -> /:reviewId
+
+Express Router is used to breakdown our code into smaller parts or segments.
+it helps us to structure our code and which is easy to understand 
+
+haar ek review kain uper uske author kaa name likhne kain liye hum nested populate method kaa use karenge. 
+
+Image Upload
+step-1-> making our form capable for uploading the file and save it into the database.
+step-2-> mongox 3rd party service-> file save
+step-3-> save this link in mongo
+
+multer-> it is a library that is used to handle multiple form-data
+
+cloudinary-> it is used for a cloud storage.
+
+.env file-> .env stands for environment variable /credentials it is used to store the credentials.
+
+.env file ko backend kain sath integrate karwane kain liye hume dotenv npm package ko install karna padega. 
+
+multer ko cloudinary main store karne kain liye hume 
+npm i cloudinary multer-storage-cloudinary 
+
+map-box,map-tiler -> it is an api that is used for integrating the feature of map in our project.
+
+maplibre gl-js -> it is a client-side library that is used for building web applications.
+
+GeoCoding-> it is a process of converting an street address into geographic coordinates.
+ ex-> New Delhi,India ->  77.2088, 28.6139
+
+Mapbox sirf unhi request ko accept karega jinme public token hoga.
+
+ejs ek script ki form main env variables ko store karenge fir hum isko public folder kain ander access kaar payenge.
+
+mapbox-sdk -> yeh ek js sdk hain joh mapbox api kain sath work karti hain.
+
+default limit-> ek jagah kain 5 coordinates hi add kaar sakte hain.
+
+mapbox hume  GeoJson kain format main data reeturn karta hain.
+
+GeoJSON-> yeh ek standard hain or ek fixed format main jisse hum upne geometrical data ko access kaar sakte hain.
